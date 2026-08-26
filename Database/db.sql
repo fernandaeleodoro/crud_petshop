@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS pet_shop;
+CREATE DATABASE IF NOT EXISTS aumigos;
 
-USE pet_shop;
+USE aumigos;
 
 CREATE TABLE clientes (
     id_cliente INT AUTO_INCREMENT PRIMARY KEY,
