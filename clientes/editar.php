@@ -122,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <br><br>
 
         <button type="submit">
-            Salvar Alterações
+          
         </button>
 
     </form>

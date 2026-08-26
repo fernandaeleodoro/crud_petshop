@@ -70,7 +70,7 @@ $resultado = $conexao->query($sql);
                 <td>
 
                     <a href="editar.php?id=<?php echo $cliente["id_cliente"]; ?>">
-                        Editar
+               
                     </a>
 
                     |
@@ -79,7 +79,7 @@ $resultado = $conexao->query($sql);
                         href="excluir.php?id=<?php echo $cliente["id_cliente"]; ?>"
                         onclick="return confirm('Tem certeza que deseja excluir este cliente?')"
                     >
-                        Excluir
+           
                     </a>
 
                 </td>
@@ -93,7 +93,7 @@ $resultado = $conexao->query($sql);
     <br>
 
     <a href="../index.php">
-        Voltar para o início
+      
     </a>
 
 </body>

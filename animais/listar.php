@@ -97,7 +97,7 @@ $resultado = $conexao->query($sql);
                     <a
                         href="editar.php?id=<?php echo $animal["id_animal"]; ?>"
                     >
-                        Editar
+                        
                     </a>
 
                     |
@@ -106,7 +106,6 @@ $resultado = $conexao->query($sql);
                         href="excluir.php?id=<?php echo $animal["id_animal"]; ?>"
                         onclick="return confirm('Tem certeza que deseja excluir este animal?')"
                     >
-                        Excluir
                     </a>
 
                 </td>
@@ -120,7 +119,6 @@ $resultado = $conexao->query($sql);
     <br>
 
     <a href="../index.php">
-        Voltar para o início
     </a>
 
 </body>

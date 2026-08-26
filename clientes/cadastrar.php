@@ -93,7 +93,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <br><br>
 
         <button type="submit">
-            Cadastrar Cliente
         </button>
 
     </form>
@@ -101,7 +100,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <br>
 
     <a href="listar.php">
-        Voltar para clientes
     </a>
 
 </body>
