@@ -1,7 +1,6 @@
 CREATE DATABASE IF NOT EXISTS aumigos;
 
-USE aumigos;
-
+use  aumigos;
 
 CREATE TABLE clientes (
     id_cliente INT AUTO_INCREMENT PRIMARY KEY,
