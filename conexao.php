@@ -1,25 +1,16 @@
 <?php
 
 $host = "localhost";
-$db = "aumigos";
-$user = "root";
-$pass = "root";
+$usuario = "root";
+$senha = "";
+$banco = "crud_petshop";
 
-try {
+$conn = mysqli_connect($host, $usuario, $senha, $banco);
 
-    $pdo = new PDO(
-        "mysql:host=$host;dbname=$db;charset=utf8mb4",
-        $user,
-        $pass
-    );
-
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-} catch (PDOException $e) {
-
-    die("Erro na conexão: " . $e->getMessage());
-
+if (!$conn) {
+    die("Erro na conexão: " . mysqli_connect_error());
 }
+
 ?>
 
 
